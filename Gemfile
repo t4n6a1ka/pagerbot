@@ -1,4 +1,26 @@
 # Execute bundler hook if present
 source('https://rubygems.org/')
-# Specify your gem's dependencies in pagerbot.gemspec
-gemspec
+
+gem 'activesupport'
+gem 'chronic'
+gem 'chronic_duration'
+gem 'cinch'
+gem 'configatron'
+gem 'mailgun-ruby'
+gem 'method_decorators'
+gem 'rest-client'
+gem 'sinatra'
+gem 'thin'
+gem 'mongo'
+
+group :development do
+  gem 'minitest', '< 5.0'
+  gem 'minitest-reporters'
+  gem 'mocha'
+  gem 'dotenv'
+  gem 'pry'
+
+  gem 'bundler'
+  gem 'rake'
+  gem 'rerun'
+end
