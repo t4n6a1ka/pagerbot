@@ -12,6 +12,7 @@ gem 'rest-client'
 gem 'sinatra'
 gem 'thin'
 gem 'mongo'
+gem 'bson_ext'
 
 group :development do
   gem 'minitest', '< 5.0'
